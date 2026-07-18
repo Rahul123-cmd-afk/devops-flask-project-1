@@ -4,7 +4,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 // Replace with your GitHub repository URL
-                git branch: 'main', url: '[https://github.com/Rahul123-cmd-afk/devops-flask-project-1.git)'
+                git branch: 'main', url: '[http://github.com/Rahul123-cmd-afk/devops-flask-project-1.git)'
             }
         }
         stage('Build Docker Image') {
